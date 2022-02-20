@@ -1,0 +1,63 @@
+{
+  "scene": [
+    {
+      "type":"sphere",
+      "x": -0.55,
+      "y": 5,
+      "z": 0,
+      "radius": 0.9,
+      "colour": "#FF0000",
+      "ka": 1,
+      "kd": 1,
+      "ks": 1,
+      "n": 40,
+      "r": 0.3
+    },
+    {
+      "type":"sphere",
+      "x": 0.55,
+      "y": 3.5,
+      "z": -0.16,
+      "radius": 0.5,
+      "colour": "#0000FF",
+      "ka": 0.5,
+      "kd": 0.5,
+      "ks": 0.5,
+      "n": 20,
+      "r": 0.3
+    },
+    {
+      "type": "light",
+      "x": 1,
+      "y": 2,
+      "z": 3,
+      "intensity": 80,
+      "colour": "#FFFFFF"
+    },
+    {
+      "type": "light",
+      "x": -5,
+      "y": 4,
+      "z": 1,
+      "intensity": 80,
+      "colour": "#FFFFFF"
+    },
+    {
+      "type": "ambient",
+      "intensity": 0.05,
+      "colour": "#FFFFFF"
+    }
+  ],
+
+  "camera": {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "nx": 0,
+    "ny": 1,
+    "nz": 0,
+    "d": 1,
+    "width": 1,
+    "height": 0.75
+  }
+}
